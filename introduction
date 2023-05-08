@@ -9,3 +9,6 @@ def edit(intro):
   return inner
 intro = edit(intro)
 intro()
+def greet():
+  print("Good morning")
+greet()
