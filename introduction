@@ -1,4 +1,11 @@
 def intro():
   print("My name is Adesh Phadke")
   print("I am from pune, Maharashtra")
+
+def edit(intro):
+  def inner():
+    print("Hi")
+    return intro
+  return inner
+intro = edit(intro)
 intro()
