@@ -12,7 +12,5 @@ intro()
 def greet():
   print("Good morning")
 greet()
-class Student:
-  def __init__(self):
-    print("Ok")
-s1 = Student()
+
+print("I have madhe changes from pycharm ")
